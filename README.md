@@ -1,4 +1,4 @@
 # Ping-Pong-Game
 
-A basic 2 player ping pong game using java 
+A 2 player ping pong game using java 
 
