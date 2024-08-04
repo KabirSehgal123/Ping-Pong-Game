@@ -103,12 +103,16 @@ public void checkCollision() {
         newPaddles();
         newBall();
         System.out.println("Player 2: "+score.player2);
+        if(score.player2==11)
+            System.exit(1);
     }
     if(ball.x >= GAME_WIDTH-BALL_DIAMETER) {
         score.player1++;
         newPaddles();
         newBall();
         System.out.println("Player 1: "+score.player1);
+        if(score.player1==11)
+            System.exit(1);
     }
 }
 public void run() {
